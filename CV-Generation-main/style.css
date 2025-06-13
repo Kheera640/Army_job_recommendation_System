@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lavender;
+  margin: 0;
+  padding: 0;
+}
+
+#cv-form {
+  display: block; 
+}
+
+#cv-template {
+  display: none;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.myimg {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #2a2a72;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+h1,
+h3 {
+  color: #2a2a72;
+  font-weight: 700;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+}
+
+#cvOutput {
+  margin-top: 30px;
+}
+
+#cvOutput h2 {
+  color: lavender;
+}
+
+input,
+textarea {
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #cv-template,
+  #cv-template * {
+    visibility: visible;
+  }
+
+  #cv-template {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+#weT {
+  list-style-type: none;
+}
+
+#cv-template h2 {
+  font-size: 18px;
+}
