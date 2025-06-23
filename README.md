@@ -21,55 +21,7 @@ The PostgreSQL database contains the following key columns:
 * `Job Description`, `Benefits`, `Skills`, `Responsibilities`
 * `Company`, `Company Profile`
 
----
 
-## 🔁 How to Restore the Database
-
-### 📌 Requirements
-
-* PostgreSQL installed (`psql` CLI tool)
-* Existing user with permission to create a database
-
----
-
-### 🛠️ Step 1: Create a Database
-
-```bash
-createdb job_rec
-```
-
-Or from `psql`:
-
-```sql
-CREATE DATABASE job_rec;
-```
-
----
-
-### 🛠️ Step 2: Restore the Dump
-
-If using `.sql` file:
-
-```bash
-psql -U your_username -d job_rec -f job_recommender.sql
-```
-
-If using a compressed `.gz` file:
-
-```bash
-gunzip -c job_recommender.sql.gz | psql -U your_username -d job_rec
-```
-
-> Replace `your_username` with your PostgreSQL user.
-
-
----
-
-## 🧑‍💻 How to Use This Repo
-
-* Use the database for training models, filtering jobs, or powering a recommendation engine.
-* Integrate with a Python backend (Flask/FastAPI) or JS frontend.
-* Connect to the database using SQL or an ORM like SQLAlchemy.
 
 ---
 
