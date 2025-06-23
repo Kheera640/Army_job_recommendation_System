@@ -8,14 +8,6 @@ This project provides a job recommendation platform tailored for ex-army service
 
 ---
 
-### 📁 Project Structure
-
-```plaintext
-├── job_recommender.sql           # Full PostgreSQL database dump (schema + data)
-├── your-code/                    # App backend/frontend code (if any)
-├── README.md                     # You're here!
-```
-
 ---
 
 ## 🗂️ Database Overview
