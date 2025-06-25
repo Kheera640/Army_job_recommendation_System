@@ -3,6 +3,20 @@
 The **Army Job Recommendation System** is a project designed to help ex-army personnel transition into civilian employment by matching their profiles with relevant job opportunities. It leverages a curated job database and customizable matching logic to suggest roles that align with their experience, skills, and preferences.
 
 ---
+📦 Database
+The database files used in this project can be found in the following Google Drive folder:
+
+🔗 Download Database Files
+
+This folder may include:
+
+PostgreSQL dump files (.sql)
+
+Raw CSV datasets
+
+Processed data for training/testing
+
+ℹ️ Note: Ensure you have appropriate permissions to access the folder. If needed, request access via Google Drive.
 
 ## 🎯 Objective
 
